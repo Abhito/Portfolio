@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.63d13a9d.css",
-    "main.js": "/static/js/main.247118a3.js",
-    "static/js/787.8b112d49.chunk.js": "/static/js/787.8b112d49.chunk.js",
-    "static/media/logo-s.png": "/static/media/logo-s.616e78aaab21d6b35612.png",
-    "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
-    "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
-    "static/media/logo_sub.png": "/static/media/logo_sub.485051ee784b4a466716.png",
-    "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
-    "index.html": "/index.html",
-    "main.63d13a9d.css.map": "/static/css/main.63d13a9d.css.map",
-    "main.247118a3.js.map": "/static/js/main.247118a3.js.map",
-    "787.8b112d49.chunk.js.map": "/static/js/787.8b112d49.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.dcd7244b.css",
+    "main.js": "/Portfolio/static/js/main.ac2e5eec.js",
+    "static/js/787.8b112d49.chunk.js": "/Portfolio/static/js/787.8b112d49.chunk.js",
+    "static/media/logo-s.png": "/Portfolio/static/media/logo-s.616e78aaab21d6b35612.png",
+    "static/media/helvetica-neu.ttf": "/Portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/Portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/logo_sub.png": "/Portfolio/static/media/logo_sub.485051ee784b4a466716.png",
+    "static/media/CoolveticaRg-Regular.woff2": "/Portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/Portfolio/index.html",
+    "main.dcd7244b.css.map": "/Portfolio/static/css/main.dcd7244b.css.map",
+    "main.ac2e5eec.js.map": "/Portfolio/static/js/main.ac2e5eec.js.map",
+    "787.8b112d49.chunk.js.map": "/Portfolio/static/js/787.8b112d49.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.63d13a9d.css",
-    "static/js/main.247118a3.js"
+    "static/css/main.dcd7244b.css",
+    "static/js/main.ac2e5eec.js"
   ]
 }
