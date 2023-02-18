@@ -177,6 +177,12 @@
       &.mobile-show{
         display: block;
       }
+
+      a.portfolio-link {
+        &:after {
+          font-size: 10px;
+        }
+      }
     }
 
     .hamburger-icon,
