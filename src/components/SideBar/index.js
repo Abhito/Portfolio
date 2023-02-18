@@ -14,14 +14,14 @@ const SideBar = () => {
 
     return(
     <div className='nav-bar'>
-        <Link className='logo' to='/'>
+        <Link className='logo' to='/Portfolio'>
             <img src={LogoS} alt="logo"/>
             <img className="sub-logo" src={LogoSubtitle} alt="abhinav"/>
         </Link>
         <nav className={showNav ? 'mobile-show' : ''}>
             <NavLink
                 onClick={() => setShowNav(false)}
-                exact="true" activeclassname="active" to="/">
+                exact="true" activeclassname="active" to="/Portfolio">
                 <FontAwesomeIcon icon={faHome} color="#4d4d4e"/>
             </NavLink>
             <NavLink
@@ -31,7 +31,7 @@ const SideBar = () => {
             </NavLink>
             <NavLink
                 onClick={() => setShowNav(false)}
-                activeclassname="active" className="portfolio-link" to="/portfolio">
+                activeclassname="active" className="portfolio-link" to="/myportfolio">
                 <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e"/>
             </NavLink>
             <NavLink
