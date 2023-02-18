@@ -8,8 +8,8 @@ import Loader from "react-loaders";
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const nameArray = ['b','h','i','n','a','v']
-    const jobArray = ['d','e','v','e','l','o','p','e','r']
+    const nameArray = ['b','h','i','n','a','v',',']
+    const jobArray = "Software  Developer".split("")
 
     useEffect(() => {
         return () => setTimeout(() => {
@@ -27,16 +27,16 @@ const Home = () => {
                     <br />
                     <span className={`${letterClass} _13`}>I</span>
                     <span className={`${letterClass} _14`}>'m</span>
-                    <img src={LogoTitle} alt="developer"/>
+                    <img src={LogoTitle} alt="A"/>
                     <AnimatedLetters letterClass={letterClass}
                                      strArray={nameArray}
                                      idx={15}/>
                     <br />
                     <AnimatedLetters letterClass={letterClass}
                                      strArray={jobArray}
-                                     idx={22}/>
+                                     idx={17}/>
                 </h1>
-                <h2>Backend Developer</h2>
+                <h2>Full-Stack Developer / Backend Developer / Game Programmer</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
                 <Logo />

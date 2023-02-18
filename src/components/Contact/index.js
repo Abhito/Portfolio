@@ -45,9 +45,9 @@ const Contact = () => {
                             idx={15}/>
                     </h1>
                     <p>
-                        I an interest in any job opportunities - especially ambitious
+                        I an interested in any job opportunities - especially ambitious
                         or large projects. However, if you have other requests or questions,
-                        don't hesitate to contact me using below form either.
+                        don't hesitate to contact me using the form below either.
                     </p>
                       <div className='contact-form'>
                           <form ref={refForm} onSubmit={sendEmail}>
@@ -78,8 +78,7 @@ const Contact = () => {
                     <br/>
                     United States of America,
                     <br/>
-                    Guilderland New York, 12084 <br/>
-                    Guilderland <br/>
+                    Guilderland, New York, 12084 <br/>
                     <span>singhalabhinav0427@gmail.com</span>
                 </div>
                 <div className='map-wrap'>

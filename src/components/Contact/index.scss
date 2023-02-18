@@ -1,3 +1,8 @@
+$form-color: #296EB4;
+::placeholder{
+  color: #fff;
+  opacity: .6;
+}
 .contact-form{
   width: 100%;
   margin-top: 20px;
@@ -35,18 +40,19 @@
   input[type='email']{
     width: 100%;
     border: 0;
-    background: #115173;
+    background: $form-color;
     height: 50px;
     font-size: 16px;
     color: #fff;
     padding: 0 20px;
     box-sizing: border-box;
+
   }
 
   textarea{
     width: 100%;
     border: 0;
-    background: #115173;
+    background: $form-color;
     height: 50px;
     font-size: 16px;
     color: #fff;
