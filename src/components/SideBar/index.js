@@ -7,7 +7,7 @@ import {faBars, faClose, faEnvelope, faHome, faSuitcase, faUser} from '@fortawes
 import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 import {useState} from "react";
 
-//TODO: Personalize
+
 const SideBar = () => {
 
     const [showNav, setShowNav] = useState(false);
@@ -26,17 +26,17 @@ const SideBar = () => {
             </NavLink>
             <NavLink
                 onClick={() => setShowNav(false)}
-                activeclassname="active" className="about-link" to="/Portfolio/about">
+                activeclassname="active" className="about-link" to="/about">
                 <FontAwesomeIcon icon={faUser} color="#4d4d4e"/>
             </NavLink>
             <NavLink
                 onClick={() => setShowNav(false)}
-                activeclassname="active" className="portfolio-link" to="/Portfolio/myportfolio">
+                activeclassname="active" className="portfolio-link" to="/myportfolio">
                 <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e"/>
             </NavLink>
             <NavLink
                 onClick={() => setShowNav(false)}
-                activeclassname="active" className="contact-link" to="/Portfolio/contact">
+                activeclassname="active" className="contact-link" to="/contact">
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"/>
             </NavLink>
             <FontAwesomeIcon
