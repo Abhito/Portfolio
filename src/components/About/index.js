@@ -2,7 +2,7 @@ import './index.scss'
 import AnimatedLetters from "../AnimatedLetters";
 import {useEffect, useState} from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faAndroid, faGitAlt, faJava, faJsSquare, faReact, faUnity} from "@fortawesome/free-brands-svg-icons";
+import {faAndroid, faGitAlt, faJava, faJsSquare, faReact, faNodeJs} from "@fortawesome/free-brands-svg-icons";
 import Loader from "react-loaders";
 const About = () => {
 
@@ -25,13 +25,15 @@ const About = () => {
                         idx={15}
                         />
                 </h1>
-                <p>An independent and self-motivated computer science graduate with an aptitude
+                <p>I'm independent and self-motivated Software Developer with an aptitude
                     for problem solving and leadership. Skilled in programming in multiple
-                    languages like Java, C, and C#. Passionate to learn and work with new technologies.</p>
+                    languages like Java, TypeScript, and C#.
+                    I have over 2 years of experience in technologies like React, React Native, Android, and more.
+                    Passionate to learn and work with new technologies.</p>
                 <p>I'm quiet confident, naturally curious, and perpetually working on
                     improving my chops one design problem at a time.</p>
                 <p>If I need to define myself in one sentence that would be a
-                    hard-working, a movie fanatic, and tech-obsessed!!!</p>
+                    hard-working, a anime fanatic, and tech-obsessed!!!</p>
             </div>
             <div className='stage-cube-cont'>
                 <div className="cubespinner">
@@ -42,7 +44,7 @@ const About = () => {
                     <FontAwesomeIcon icon={faReact} color="#5ED4F4"/>
                 </div>
                 <div className='face3'>
-                    <FontAwesomeIcon icon={faUnity} color="#0"/>
+                    <FontAwesomeIcon icon={faNodeJs} color="#0"/>
                 </div>
                 <div className='face4'>
                     <FontAwesomeIcon icon={faAndroid} color="#A4C639"/>
